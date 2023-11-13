@@ -1,10 +1,8 @@
 import React from "react";
-import { Phudu } from "next/font/google";
 import { IoLogoFlickr } from "react-icons/io";
 import Navbar from "./Navbar";
 import Navdata from "../Client/Navdata";
 
-const phudu = Phudu({ subsets: ["latin"], weight: "700" });
 
 const Sidebar = () => {
   return (
@@ -32,7 +30,7 @@ const Sidebar = () => {
           </div>
           <div className="flex-1 items-center lg:ml-6 lg:mt-4 ">
             <IoLogoFlickr className="text-2xl sm:text-3xl " />
-            <div className={phudu.className}>
+            <div >
               <h1 className="text-2xl sm:text-3xl w-max space-x-4 ">
                 GEMS MGMT
               </h1>
